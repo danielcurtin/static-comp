@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6471591dde.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Static Comp</title>
+</head>
+<body>
+ <nav class="nav">
+  <section class="navItems">
+    <button class="userProfile">
+      <i class="userIcon fa-regular fa-circle-user"></i>
+      <p class="userName">Admin Username</p>
+      <i class="userDropdown fa-solid fa-caret-down"></i>
+    </button>
+    <section class="bottomNav">
+      <div class="tabs">
+        <button class="navBtn sharesBtn" data-active="true">
+          <i class="tabIcon fa-solid fa-share-nodes"></i>
+          <p class="tabTxt">Shares</p>
+        </button>
+        <button class="navBtn playlistsBtn" data-active="false">
+          <i class="tabIcon fa-solid fa-list"></i>
+          <p class="tabTxt">Playlists</p>
+        </button>
+        <button class="navBtn videosBtn" data-active="false">
+          <i class="tabIcon fa-regular fa-user"></i>
+          <p class="tabTxt">Personal Videos</p>
+        </button>
+      </div>
+      <img src="https://2winglobal.com/wp-content/themes/2win2020/library/images/main-logo.svg" alt="2Win!" class="logo">
+    </section>
+  </section>
+ </nav>
+ <main class="display">
+  <h1 class="pageHeader">Shares</h1>
+  <section class="cardContainer">
+    <article class="card">
+      <button class="share">
+        <i class="fa-solid fa-share"></i>
+      </button>
+      <h2 class="views">
+        <span class="viewsTxt">views</span>
+        <span class="viewsNum">02</span>
+      </h2>
+      <div class="darkenLayer"></div>
+      <img class="cardImg" src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="smiling man talking on phone">
+      <section class="cardInfo">
+        <div class="recipInfoBox">
+          <h2 class="recipName">Recipient's Namehere</h2>
+          <h3 class="recipDate">Tuesday 02/14/23 3:00pm</h3>
+        </div>
+        <div class="recipLinkBox">
+          <p class="recipLink">http://2win.2winstage.com/p/recipients_namehere</p>
+        </div>
+        <div class="recipPlaylistBox">
+          <h3 class="recipPlaylist">Playlist</h3>
+          <h2 class="recipPlaylistName">Name of Playlist</h2>
+        </div>
+        <div class="recipAttsBox">
+          <h3 class="recipAtts">attachments</h3>
+          <h2 class="recipAttsNum">04</h2>
+        </div>
+      </section>
+    </article>
+    <article class="card">
+      <button class="share">
+        <i class="fa-solid fa-share"></i>
+      </button>
+      <h2 class="views">
+        <span class="viewsTxt">views</span>
+        <span class="viewsNum">02</span>
+      </h2>
+      <div class="darkenLayer"></div>
+      <img class="cardImg" src="https://images.unsplash.com/photo-1573496799515-eebbb63814f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="woman smiling with arms crossed">
+      <section class="cardInfo">
+        <div class="recipInfoBox">
+          <h2 class="recipName">Recipient's Namehere</h2>
+          <h3 class="recipDate">Tuesday 02/14/23 3:00pm</h3>
+        </div>
+        <div class="recipLinkBox">
+          <p class="recipLink">http://2win.2winstage.com/p/recipients_namehere</p>
+        </div>
+        <div class="recipPlaylistBox">
+          <h3 class="recipPlaylist">Playlist</h3>
+          <h2 class="recipPlaylistName">Name of Playlist</h2>
+        </div>
+        <div class="recipAttsBox">
+          <h3 class="recipAtts">attachments</h3>
+          <h2 class="recipAttsNum">04</h2>
+        </div>
+    </article>
+    <article class="card">
+      <button class="share">
+        <i class="fa-solid fa-share"></i>
+      </button>
+      <h2 class="views">
+        <span class="viewsTxt">views</span>
+        <span class="viewsNum">02</span>
+      </h2>
+      <div class="darkenLayer"></div>
+      <img class="cardImg" src="https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="woman smiling sitting at table holding notebook">
+      <section class="cardInfo">
+        <div class="recipInfoBox">
+          <h2 class="recipName">Recipient's Namehere</h2>
+          <h3 class="recipDate">Tuesday 02/14/23 3:00pm</h3>
+        </div>
+        <div class="recipLinkBox">
+          <p class="recipLink">http://2win.2winstage.com/p/recipients_namehere</p>
+        </div>
+        <div class="recipPlaylistBox">
+          <h3 class="recipPlaylist">Playlist</h3>
+          <h2 class="recipPlaylistName">Name of Playlist</h2>
+        </div>
+        <div class="recipAttsBox">
+          <h3 class="recipAtts">attachments</h3>
+          <h2 class="recipAttsNum">04</h2>
+        </div>
+    </article>
+    <article class="card">
+      <button class="share">
+        <i class="fa-solid fa-share"></i>
+      </button>
+      <h2 class="views">
+        <span class="viewsTxt">views</span>
+        <span class="viewsNum">02</span>
+      </h2>
+      <div class="darkenLayer"></div>
+      <img class="cardImg" src="https://images.unsplash.com/photo-1562788869-4ed32648eb72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="man smiling in front of brick wall">
+      <section class="cardInfo">
+        <div class="recipInfoBox">
+          <h2 class="recipName">Recipient's Namehere</h2>
+          <h3 class="recipDate">Tuesday 02/14/23 3:00pm</h3>
+        </div>
+        <div class="recipLinkBox">
+          <p class="recipLink">http://2win.2winstage.com/p/recipients_namehere</p>
+        </div>
+        <div class="recipPlaylistBox">
+          <h3 class="recipPlaylist">Playlist</h3>
+          <h2 class="recipPlaylistName">Name of Playlist</h2>
+        </div>
+        <div class="recipAttsBox">
+          <h3 class="recipAtts">attachments</h3>
+          <h2 class="recipAttsNum">04</h2>
+        </div>
+    </article>
+    <article class="card">
+      <button class="share">
+        <i class="fa-solid fa-share"></i>
+      </button>
+      <h2 class="views">
+        <span class="viewsTxt">views</span>
+        <span class="viewsNum">02</span>
+      </h2>
+      <div class="darkenLayer"></div>
+      <img class="cardImg" src="https://images.unsplash.com/photo-1611095973763-414019e72400?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="man sitting at table looking at laptop giving thumbs up">
+      <section class="cardInfo">
+        <div class="recipInfoBox">
+          <h2 class="recipName">Recipient's Namehere</h2>
+          <h3 class="recipDate">Tuesday 02/14/23 3:00pm</h3>
+        </div>
+        <div class="recipLinkBox">
+          <p class="recipLink">http://2win.2winstage.com/p/recipients_namehere</p>
+        </div>
+        <div class="recipPlaylistBox">
+          <h3 class="recipPlaylist">Playlist</h3>
+          <h2 class="recipPlaylistName">Name of Playlist</h2>
+        </div>
+        <div class="recipAttsBox">
+          <h3 class="recipAtts">attachments</h3>
+          <h2 class="recipAttsNum">04</h2>
+        </div>
+    </article>
+    <article class="card">
+      <button class="share">
+        <i class="fa-solid fa-share"></i>
+      </button>
+      <h2 class="views">
+        <span class="viewsTxt">views</span>
+        <span class="viewsNum">02</span>
+      </h2>
+      <div class="darkenLayer"></div>
+      <img class="cardImg" src="https://images.unsplash.com/photo-1508243529287-e21914733111?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="man in suit smiling in alleyway">
+      <section class="cardInfo">
+        <div class="recipInfoBox">
+          <h2 class="recipName">Recipient's Namehere</h2>
+          <h3 class="recipDate">Tuesday 02/14/23 3:00pm</h3>
+        </div>
+        <div class="recipLinkBox">
+          <p class="recipLink">http://2win.2winstage.com/p/recipients_namehere</p>
+        </div>
+        <div class="recipPlaylistBox">
+          <h3 class="recipPlaylist">Playlist</h3>
+          <h2 class="recipPlaylistName">Name of Playlist</h2>
+        </div>
+        <div class="recipAttsBox">
+          <h3 class="recipAtts">attachments</h3>
+          <h2 class="recipAttsNum">04</h2>
+        </div>
+    </article>
+    <article class="card">
+      <button class="share">
+        <i class="fa-solid fa-share"></i>
+      </button>
+      <h2 class="views">
+        <span class="viewsTxt">views</span>
+        <span class="viewsNum">04</span>
+      </h2>
+      <div class="darkenLayer"></div>
+      <img class="cardImg" src="https://images.unsplash.com/photo-1573497701119-52dbe8832c17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="woman smiling sitting at table using laptop">
+      <section class="cardInfo">
+        <div class="recipInfoBox">
+          <h2 class="recipName">Recipient's Namehere</h2>
+          <h3 class="recipDate">Tuesday 02/14/23 3:00pm</h3>
+        </div>
+        <div class="recipLinkBox">
+          <p class="recipLink">http://2win.2winstage.com/p/recipients_namehere</p>
+        </div>
+        <div class="recipPlaylistBox">
+          <h3 class="recipPlaylist">Playlist</h3>
+          <h2 class="recipPlaylistName">Second Playlist</h2>
+        </div>
+        <div class="recipAttsBox">
+          <h3 class="recipAtts">attachments</h3>
+          <h2 class="recipAttsNum">04</h2>
+        </div>
+    </article>
+    <article class="card">
+      <button class="share">
+        <i class="fa-solid fa-share"></i>
+      </button>
+      <h2 class="views">
+        <span class="viewsTxt">views</span>
+        <span class="viewsNum">01</span>
+      </h2>
+      <div class="darkenLayer"></div>
+      <img class="cardImg" src="https://images.unsplash.com/photo-1573633509389-0e3075dea01b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="man standing in boardroom holding coffee cup talking on phone">
+      <section class="cardInfo">
+        <div class="recipInfoBox">
+          <h2 class="recipName">Recipient's Namehere</h2>
+          <h3 class="recipDate">Tuesday 02/14/23 3:00pm</h3>
+        </div>
+        <div class="recipLinkBox">
+          <p class="recipLink">http://2win.2winstage.com/p/recipients_namehere</p>
+        </div>
+        <div class="recipPlaylistBox">
+          <h3 class="recipPlaylist">Playlist</h3>
+          <h2 class="recipPlaylistName">Another Playlist</h2>
+        </div>
+        <div class="recipAttsBox">
+          <h3 class="recipAtts">attachments</h3>
+          <h2 class="recipAttsNum">04</h2>
+        </div>
+    </article>
+  </section>
+ </main>
+</body>
+</html>
